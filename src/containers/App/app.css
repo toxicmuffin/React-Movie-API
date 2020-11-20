@@ -1,0 +1,18 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 95%;
+}
+
+.canvas {
+  background-image: linear-gradient(#bd63a0, #18a4c4);
+  padding-top: 1px;
+  min-height: 100vh;
+  color: white;
+}
+
+@media only screen and (min-height : 1000px) and (min-width : 1000px) {
+  .wrapper {
+    padding-top: 10vh;
+  }
+}

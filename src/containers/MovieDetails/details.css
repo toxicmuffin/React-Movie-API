@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Space+Mono|Spartan&display=swap');
+
+#backDrop {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 10vh;
+}
+@import url(https://fonts.googleapis.com/css?family=Space+Mono|Spartan&display=swap);
+
+#notwrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(82, 82, 82, 0.746);
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: 'Space Mono';
+}
+
+p {
+  font-family: 'Spartan';
+}
+
+.cheating {
+  height: 20px;
+}
+
+@media only screen and (min-height: 1000px) {
+  #backDrop {
+    margin-top: 20vh;
+  }
+}
